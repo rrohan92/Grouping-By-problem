@@ -1,3 +1,7 @@
+/*
+ Created by: Rohan Doshi
+ Date: 28th June, 2016
+ */
 import java.util.*;
 
 public class Main {
@@ -56,7 +60,7 @@ public class Main {
 
 		count++;
 		set[row][column] = false;
-		int direction [][] = {{1,0}, {0,1}, {-1,0}, {0,-1}};
+		int direction [][] = {{1,0}, {0,1}, {-1,0}, {0,-1}}; //Down, Right, Up and Left
 
 		for(int i=0; i<4; i++){
 			int newi = row + direction[i][0];
